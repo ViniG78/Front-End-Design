@@ -9,8 +9,10 @@ main{
 
 }
 .card-container {
-    width: 270px;
+    width: 230px;
     display: table;
+    float: left;
+    margin: 60px 60px 0 0;
  
 }
 .card {
@@ -31,6 +33,17 @@ main{
     display: block;
     /*margin: 15px; /*Os quatro lados da margin serão 15px*/
 }
+
+.card .card-image-top{
+    margin-top: -55px;
+}
+/*
+.card .card-image-top{
+    position: relative;
+    top: -55px;
+    margin-bottom: -55px;
+}*/
+
 .card .boddy{
     width: 100%;
     display: table;
@@ -45,9 +58,36 @@ main{
     text-align: center;
     margin: 0;
 }
+.card .boddy p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(119, 98, 98);
+    font-weight: 800;
+    margin: 15px 0 10px 0;
+}
 .card .card-footer{
     width: 100%;
     display: table;
+}
+.card .card-footer .btn{
+    width: 100%;
+}
+/*BOTÔES*/
+.btn{
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    background-color: aqua;
     margin-top: 12px;
-
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
