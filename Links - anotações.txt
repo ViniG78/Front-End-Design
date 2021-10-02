@@ -1,0 +1,14 @@
+https://www.w3c.br/
+
+Preferences -> Settings -> Pesquisar "word wrap" -> Ativar "Editor: word wrap" 
+(Essa função no vsCode irá quebrar linhas automaticamente)
+
+Com o item(texto) selecionado precionar -> Ctrl + Shift + p -> Emmet: Wrap with Abbreviation -> escrever a tag a qual deseja envelopar o texto.
+
+https://www.w3schools.com/html/default.asp
+
+https://fonts.google.com/
+
+https://atomicdesign.bradfrost.com/
+
+https://bradfrost.com/blog/post/atomic-web-design/

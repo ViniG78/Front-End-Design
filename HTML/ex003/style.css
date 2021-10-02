@@ -1,0 +1,53 @@
+body{
+    background-color: beige;
+    margin: 0;
+}
+main{
+    width: 70%;
+    display: table;
+    margin: 100px auto 0 auto;/*Os 4 valores se referem aos valores das respectivas margins "Top, rigth, bottom. left,"*/
+
+}
+.card-container {
+    width: 270px;
+    display: table;
+ 
+}
+.card {
+    width: 100%;
+    display: table;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    box-sizing: border-box;/*Mantem o card com o mesmo tamanho, independente do padding*/
+ 
+}
+.card .card-image{/*Essa class esta mechendo direntemente na imagem*/
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;  /*Arredondar bordas*/
+    display: block;
+    /*margin: 15px; /*Os quatro lados da margin serão 15px*/
+}
+.card .boddy{
+    width: 100%;
+    display: table;
+    margin-top: 12px;
+
+}
+.card .boddy h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    line-height: 24px;
+    color: blueviolet;
+    text-align: center;
+    margin: 0;
+}
+.card .card-footer{
+    width: 100%;
+    display: table;
+    margin-top: 12px;
+
+}
